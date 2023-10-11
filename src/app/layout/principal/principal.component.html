@@ -1,0 +1,23 @@
+<div>
+  <router-outlet></router-outlet>
+</div>
+
+
+<div class="contenedor">
+    <h1 style="text-align: center;">ENTREGA DE COMIDA PROGRAMADA PARA PERROS Y GATOS </h1><br>
+    <h4>GRUPOS SDE 15 GRUPOS SDE</h4>
+    <div>
+        <label><strong>Integrantes del grupo</strong> </label><br>
+        <label>Juan Guillermo Tafur Ramirez </label><br><br>
+        <label><strong>Docente</strong> </label><br>
+        <label>Avila Buitrago Gabriel Eduardo</label><br>
+    </div>
+    <div>
+        <img src="../../../assets/dispensador.PNG" alt="Enum3" title="Enum3"><br><br>
+        <label for="miCampo">Ingrese el nombre de la mascota:</label>
+        <input [(ngModel)] = "name">
+        <button (click)="capturarValor()">Enter</button>
+        <p>El valor capturado es: <span id="valorCapturado"></span></p>
+    </div>
+</div>
+<br><br><br><br>
