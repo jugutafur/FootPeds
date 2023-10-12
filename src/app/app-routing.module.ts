@@ -8,9 +8,13 @@ import { SimuladorComponent } from './core/componentes/simulador/simulador.compo
 
 const routes : Routes = [
   {
-      path: 'Inicio',
+      path: '',
       component: PrincipalComponent
   },
+  {
+    path: 'Inicio',
+    component: PrincipalComponent
+},
   {
       path: 'Integrantes',
       component: IntegrantesComponent
